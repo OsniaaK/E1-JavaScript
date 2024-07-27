@@ -15,7 +15,7 @@ function IgualdadDeNumeros(NumberA, NumberB) {
   else if (NumberA < NumberB) return `${NumberA} es menor que ${NumberB}`;
   else {return "Los dos numeros tienen el mismo valor";}
 }
-console.log(IgualdadDeNumeros (2, 3));
+console.log(IgualdadDeNumeros(2, 3));
 console.log(IgualdadDeNumeros(3, 2));
 console.log(IgualdadDeNumeros(2, 2));
 
@@ -82,9 +82,9 @@ console.log("Otro Break");
 
 var tercerArray = [0,1,2,3]
 
-function MultiplicarArray(cantidad) {
+function MultiplicarArray(array,cantidad) {
   for (let i = 0; i < cantidad; i++) {
-    console.log(tercerArray);
+    console.log(array);
   }
 }
-MultiplicarArray(3);
+MultiplicarArray(tercerArray,3);

@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Outfit";
@@ -24,10 +26,30 @@ article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.219);
+    background-color: rgba(0, 0, 0, 0.521);
     border-radius: 50px;
     box-shadow: black 0px 0px 30px;
     padding: 90px 30px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  color: snow;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+li {
+  background-color: black;
+  border: 1px solid;
+  padding: 5px;
+}
+
+span {
+  color: orange;
 }
 
 h1 {
@@ -35,7 +57,7 @@ h1 {
   color: transparent;
   background: linear-gradient(
     45deg,
-    rgb(255, 170, 42),
+    rgb(255, 154, 3),
     rgb(0, 255, 115),
     rgb(255, 187, 0)
   );
